@@ -47,7 +47,7 @@ public class TarefasService {
         }
     }
 
-    public Tarefas updated(Tarefas tarefa, Long id){
+    public Tarefas updated(Long id, Tarefas tarefa){
         try {
 
             Tarefas tarefaExistente = tarefasRepository.findById(id)
