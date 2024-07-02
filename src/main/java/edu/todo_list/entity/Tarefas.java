@@ -1,12 +1,10 @@
 package edu.todo_list.entity;
 
 import edu.todo_list.prioridade.Prioridade;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tb_tarefas")
 public class Tarefas {
 
     @Id
