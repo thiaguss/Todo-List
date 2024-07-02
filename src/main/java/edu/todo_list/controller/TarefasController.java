@@ -1,6 +1,5 @@
 package edu.todo_list.controller;
 
-import edu.todo_list.dto.TarefasDto;
 import edu.todo_list.entity.Tarefas;
 import edu.todo_list.service.TarefasService;
 import org.springframework.http.HttpStatus;
